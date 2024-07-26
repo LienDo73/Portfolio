@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+        <a href="#home" class="logo">
+            Lien <span>Do</span>
+        </a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+     
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Lien</span></h1>
+            <h3>I'm a <span>Web Developer</span></h3>
+            <p>As a dedicated Frontend Web Developer, I have gained valuable experience in creating responsive and user-friendly websites. My proficiency in HTML, CSS, and JavaScript, along with my growing expertise in React framework, enables me to deliver visually appealing and high-performance solutions. 
+                I am commited to staying current with industry trends and continuously enhancing my skills to provide innovative and efficient web solutions. </p>
+        <div class="social-icons">
+    
+            <a href="#">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+        </div>
+            </div>
+        <div class="home-img">
+            <img src="./img/avatar.jpg" alt="avatar">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/avatar.jpg" alt="avatar">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>As a dedicated Frontend Web Developer, I have gained valuable experience in creating responsive and user-friendly websites. My proficiency in HTML, CSS, and JavaScript, along with my growing expertise in React framework, enables me to deliver visually appealing and high-performance solutions. 
+                I am commited to staying current with industry trends and continuously enhancing my skills to provide innovative and efficient web solutions.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>UI/UX Design</h4>
+                    <p>• Create intuitive and visually appealing user interfaces. <br>
+                        • Design user experiences that enhance usability and engagement.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Frontend Development</h4>
+                    <p>• Ensure websites are accessible and look good on all devices (desktops, tablets, and mobile phones). <br>
+                        • Implement flexible grids and layouts using CSS media queries. <br>
+                        • Add interactivity and dynamic features utilizing JavaScript and React framework. </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info po">
+                    <h4>Performance Optimization</h4>
+                    <p>• Reducing page load times through code optimization and efficient asset management. <br>
+                        • Ensuring high performance on both desktop and mobile devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="project-card">
+                <img src="./img/Project1a.png" alt="project1">
+                <h3>E-commerce Website</h3>
+                <p>A responsive website built using HTML, CSS, and JavaScript, 
+                    designed to provide an optimal shopping experience across all devices. 
+                    It features dynamic product displays, interactive elements, and a 
+                    functional shopping cart to enhance user engagement and functionality. 
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            <div class="project-card">
+                <img src="./img/Project2.png" alt="project2">
+                <h3>News Project</h3>
+                <p>A responsive news application built with React JS and Bootstrap, designed 
+                    to deliver real-time news updates. 
+                    It features a clean, modern interface with dynamic data fetching from 
+                    an external API and modular components for easy maintenance and scalability. 
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+
+            <div class="project-card">
+                <img src="./img/Project3a.png" alt="project3">
+                <h3>Rock-Paper-Scissors</h3>
+                <p>This game offers an engaging and interactive experience where users 
+                    can play against the computer in real-time. 
+                    Built with HTML, CSS, and JavaScript, the site features dynamic game logic, 
+                    responsive design, and stylish visual effects to enhance user enjoyment. 
+                </p>
+                <div class="btn">Review Project</div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text"
+                    placeholder="Full Name">
+                    <input type="email"
+                    placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number"
+                    placeholder="Phone Number">
+                    <input type="text"
+                    placeholder="Subject">
+                </div>
+            </div>    
+
+                <div class="input-group-2">
+                    <textarea name="" id="" 
+                    placeholder="Your Message" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+    
+            <a href="#">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="bx bxl-github"></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#about">About Me</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            Lien Do © 2024 | All Rights Reserved
+
+        </p>
+        
+    </footer>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+
